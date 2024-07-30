@@ -14,24 +14,24 @@
         </div>
         <div x-data="{ count: 49 }" class="inline-block-element">
             <p class="inline">Small</p>
-            <p class="inline" x-text="count"></p>
-            <p class="inline">R49.00</p>
+            <p class="inline" x-text="count"></p>            
             <button class="inline" @click="count++">+</button>
             <button class="inline" @click="count--">-</button>
+            <p class="inline">R49.00</p>
         </div>
         <div x-data="{ count: R89.00 }" class="inline-block-element">
             <p class="inline">Medium</p> 
-            <p class="inline" x-text="count"></p> 
-            <p class="inline">R89.00</p>
+            <p class="inline" x-text="count"></p>          
             <button class="inline" @click="count++">+</button>
             <button class="inline" @click="count--">-</button>
+            <p class="inline">R89.00</p>
         </div>
         <div x-data="{ count: R129.00 }" class="inline-block-element">
             <p class="inline">Large</p>  
-            <p class="inline" x-text="count"> </p> 
-            <p class="inline">R129.00</p>
+            <p class="inline" x-text="count"> </p>             
             <button class="inline" @click="count++">+</button>
             <button class="inline" @click="count--">-</button>
+            <p class="inline">R129.00</p>
         </div>
         <div x-data="{ title: 'Total Cost' }">
             <p x-text="title"></p>
