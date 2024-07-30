@@ -13,7 +13,17 @@
             <p x-text="title"></p>
         </div>
         <div x-data="{ count: R49.00 }">
-            <p x-text="count"></p>
+            <p x-text="count"></p> <p>R49.00</p>
+            <button @click="count++">+</button>
+            <button @click="count--">-</button>
+        </div>
+        <div x-data="{ count: R89.00 }">
+            <p x-text="count"></p> <p>R89.00</p>
+            <button @click="count++">+</button>
+            <button @click="count--">-</button>
+        </div>
+        <div x-data="{ count: R129.00 }">
+            <p x-text="count"></p> <p>R129.00</p>
             <button @click="count++">+</button>
             <button @click="count--">-</button>
         </div>
