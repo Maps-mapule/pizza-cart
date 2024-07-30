@@ -35,8 +35,13 @@ body {
 }
 
 .inline-block-element {
-    display: inline-block;
-  }
+    display: flex;
+    align-items: center;
+}
+
+.inline {
+    margin-right: 10px; 
+}
 
  @media (min-width: 760px) {
    body {
