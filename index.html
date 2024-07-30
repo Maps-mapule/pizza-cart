@@ -13,19 +13,22 @@
             <p x-text="title"></p>
         </div>
         <div x-data="{ count: R49.00 }">
-            <p x-text="count"></p> <p>R49.00</p>
+            <p>Small</p><p x-text="count"></p> <p>R49.00</p>
             <button @click="count++">+</button>
             <button @click="count--">-</button>
         </div>
         <div x-data="{ count: R89.00 }">
-            <p x-text="count"></p> <p>R89.00</p>
+            <p>Medium</p> <p x-text="count"></p> <p>R89.00</p>
             <button @click="count++">+</button>
             <button @click="count--">-</button>
         </div>
         <div x-data="{ count: R129.00 }">
-            <p x-text="count"></p> <p>R129.00</p>
+            <p>Large</p>  <p x-text="count"></p> <p>R129.00</p>
             <button @click="count++">+</button>
             <button @click="count--">-</button>
+        </div>
+        <div x-data="{ title: 'Total Cost' }">
+            <p x-text="title"></p>
         </div>
         <div class="pizzas">
           <div class="pizza small_pizza">
