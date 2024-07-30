@@ -13,21 +13,21 @@
             <p x-text="title"></p>
         </div>
         <div x-data="shoppingCart()">
-            <div x-data="{ count: 49.00 }" class="inline-block-element">
+            <div class="inline-block-element">
                 <p class="inline">Small</p>
                 <p class="inline" x-text="count"></p>
                 <button class="inline" @click="$parent.increment(49.00)">+</button>
                 <button class="inline" @click="$parent.decrement(49.00)">-</button>
                 <p class="inline">R49.00</p>
             </div>
-            <div x-data="{ count: 89.00 }" class="inline-block-element">
+            <div class="inline-block-element">
                 <p class="inline">Medium</p>
                 <p class="inline" x-text="count"></p>
                 <button class="inline" @click="$parent.increment(89.00)">+</button>
                 <button class="inline" @click="$parent.decrement(89.00)">-</button>
                 <p class="inline">R89.00</p>
             </div>
-            <div x-data="{ count: 129.00 }" class="inline-block-element">
+            <div class="inline-block-element">
                 <p class="inline">Large</p>
                 <p class="inline" x-text="count"></p>
                 <button class="inline" @click="$parent.increment(129.00)">+</button>
